@@ -7,20 +7,8 @@ public class Circle extends Shape {
     }
 
     @Override
-    public double dienTich() {
-        return 3.14 * radius * radius;
-    }
-
-    @Override
-    public double chuVi() {
-        return 2 * 3.14 * radius;
-    }
-
-    @Override
     public String toString() {
         return "Circle: " + super.toString()
-                + " Radius: " + radius
-                + " Area: " + dienTich()
-                + " Perimeter: " + chuVi();
+                + " Radius: " + radius;
     }
 }

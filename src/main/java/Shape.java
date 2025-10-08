@@ -1,4 +1,4 @@
-public abstract class Shape {
+public class Shape {
     protected Point centerPoint;
     private static int count = 0;
 
@@ -15,8 +15,6 @@ public abstract class Shape {
         return count;
     }
 
-    public abstract double dienTich();
-    public abstract double chuVi();
     @Override
     public String toString() {
         return "Center Point: " + centerPoint;

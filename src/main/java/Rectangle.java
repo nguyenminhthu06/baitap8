@@ -9,21 +9,9 @@ public class Rectangle extends Shape {
     }
 
     @Override
-    public double dienTich() {
-        return width*length;
-    }
-
-    @Override
-    public double chuVi() {
-        return 2*(width + length);
-    }
-
-    @Override
     public String toString() {
         return "Rectangle: " + super.toString()
                 +" Width: " + width
-                +" Length: " + length
-                + " Area : " + dienTich()
-                + " Perimeter: " + chuVi();
+                +" Length: " + length;
     }
 }
